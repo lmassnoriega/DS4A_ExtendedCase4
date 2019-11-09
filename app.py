@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 import dash_table
 import os
 
-df = pd.read_csv('aggr.csv', sep=',' ,parse_dates=['Entry time'])
+#df = pd.read_csv('aggr.csv', sep=',' ,parse_dates=['Entry time'])
 
 from sqlalchemy import create_engine
 
